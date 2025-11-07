@@ -1,4 +1,3 @@
-```markdown
 # 🧠 MySQL Master: Curriculum for Instruction-Tuned SQL Generation
 
 This repository defines a **multi-phase synthetic dataset plan** used to train a compact instruction-following model (e.g. **SmolLM2-360M**) into a capable **MySQL-aware query generator** and explainer.
@@ -50,7 +49,6 @@ Teach the model the “language” of SQL:
 **Example:**
 ```json
 { "instruction": "Write a rule about AUTO_INCREMENT in MySQL.", "output": "Only one column can be AUTO_INCREMENT, and it must be indexed or a primary key." }
-```
 
 ---
 
